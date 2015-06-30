@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="lib/handlebars-v3.0.3.js"></script>
+    <script src="lib/jquery-2.1.4.js"></script>
+    <script src="scripts.js"></script>
+    <title></title>
+</head>
+<textarea id="query"></textarea>
+<button id="searchBtn">Search</button>
+<div id="resultsDiv" style="width:100%;border:1px solid red">
+    <table>
+        <tr>
+            <td width="300px">ClassName</td>
+            <td width="100px">Match</td>
+            <td width="100px">Div</td>
+            <td width="100px">Level</td>
+            <td width="100px">Points</td>
+            <td width="100px">#Participants</td>
+            <td width="100px">Opened %</td>
+            <td width="100px">Submitted %</td>
+            <td width="100px">Correct %</td>
+            <td width="100px">AvgCorrectTime (sec)</td>
+        </tr>
+    </table>
+    <div style="width:100%;height:200px;overflow-y:auto">
+        <table id="resultsTable">
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+            <tr>
+                <td width="100px">dsfasf</td>
+                <td width="100px">asdfsf</td>
+                <td width="100px">Match</td>
+                <td width="100px">Div</td>
+                <td width="100px">Level</td>
+                <td width="100px">Points</td>
+                <td width="100px">#Participants</td>
+                <td width="100px">Opened %</td>
+                <td width="100px">Submitted %</td>
+                <td width="100px">Correct %</td>
+                <td width="100px">AvgCorrectTime (sec)</td>
+            </tr>
+        </table>
+
+    </div>
+</div>
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="text" name="description" />
+    <input type="file" name="file" />
+    <input type="submit" />
+</form>
+<br>
+<textarea id="sysTestsResults"></textarea>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+{{#each this}}​
+<tr>
+    <td width="300px"><a href="/downloadProblem?id={{problemId}}">{{className}}</a></td>
+    <td width="100px">{{match}}</td>
+    <td width="100px">{{div}}</td>
+    <td width="100px">{{level}}</td>
+    <td width="100px">{{points}}</td>
+    <td width="100px">{{participants}}</td>
+    <td width="100px">{{open}}</td>
+    <td width="100px">{{submitted}}</td>
+    <td width="100px">{{correct}}</td>
+    <td width="100px">{{avgCorrectTime}}</td>
+</tr>
+{{/each}}
